@@ -7,3 +7,5 @@ I am learning To use Git and GitHub like a PRO!
 I am changing the world one line at a time.
 
 I am learning React.js  ⚛️
+
+I am finishing my first React App a TodoMachine. Next week I will be deploying it! 🔥
