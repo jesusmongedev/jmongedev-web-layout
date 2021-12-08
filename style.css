@@ -1,0 +1,26 @@
+/* Initial Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d0d48;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article{
+    width: 450px;
+    outline: 5px solid lightblue;
+    padding: 60px 60px;
+    border-radius: 14px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
