@@ -9,3 +9,9 @@ I am changing the world one line at a time.
 I am learning React.js  ⚛️
 
 I am finishing my first React App a TodoMachine. Next week I will be deploying it! 🔥
+
+__This is an experimental Title__
+Blog's Title
+
+Here I'm going to explain why I decided to switch my professional carreer 
+to now become a Fullstack Developer specialize in Frontend Developer.
