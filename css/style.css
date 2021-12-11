@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
+    color: navy;
 }
 
 header, footer{
@@ -27,6 +28,7 @@ header, footer{
 header{
     font-weight: bold;
     letter-spacing: 0.25rem;
+    font-family: monospace;
 }
 
 footer{
