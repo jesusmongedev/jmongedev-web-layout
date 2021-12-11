@@ -14,9 +14,9 @@ body {
     width: 100%;
     max-width: 100vw;
     min-height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans';
     font-size: 2rem;
-    color: navy;
+    color: #333;
 }
 
 header, footer{
@@ -26,9 +26,9 @@ header, footer{
 }
 
 header{
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     letter-spacing: 0.25rem;
-    font-family: monospace;
 }
 
 footer{
