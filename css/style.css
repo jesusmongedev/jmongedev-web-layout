@@ -19,24 +19,67 @@ body {
     color: #333;
 }
 
-header, footer{
-    padding: 2rem;
+.header, .footer{
+    padding: 2rem 4rem;
     background-color: #121212;
     color: white;
 }
 
-header{
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: monospace;
     font-weight: bold;
 }
 
-header a{
+.header__logo{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.header__logo img{
+    width: 100%;
+}
+
+.header a{
     letter-spacing: 0.5rem;
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
+}
+.header a:hover{
+    text-decoration: underline;
 }
 
-footer{
+summary {
+    list-style: none;
+    cursor: pointer;
+}
+summary i{
+    font-size: 3rem;
+}
+
+.header__toggle ul {
+    padding: 3rem 4rem;
+    position: absolute;
+    right: 0;
+    background-color: #121212;
+}
+
+.header__toggle ul li{
+    padding: 0.5rem 0;
+    text-align: right;
+    list-style: none;
+    cursor: pointer;
+}
+
+.header__toggle ul li:hover{
+    text-decoration: underline;
+}
+
+.footer{
     text-align: center;
     font-size: 1.4rem;
     letter-spacing: 0.25rem;
