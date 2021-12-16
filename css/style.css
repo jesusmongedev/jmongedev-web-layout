@@ -19,7 +19,7 @@ body {
     color: #333;
 }
 
-header, footer{
+header, .footer{
     padding: 2rem;
     background-color: #121212;
     color: white;
@@ -36,10 +36,22 @@ header a{
     text-decoration: none;
 }
 
-footer{
+.footer{
     text-align: center;
     font-size: 1.4rem;
     letter-spacing: 0.25rem;
+}
+.footer__social{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    vertical-align: center;
+}
+.footer__social i{
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.footer__social i:hover{
+    color: lightblue;
 }
 
 main{
