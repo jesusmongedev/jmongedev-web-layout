@@ -82,3 +82,9 @@ body {
   background-color: white;
   text-align: center;
 }
+```
+```js
+function HelloWord() {
+  console.log('Hello World')
+}
+```
