@@ -82,3 +82,23 @@ body {
   background-color: white;
   text-align: center;
 }
+```
+
+```js
+function HelloWord() {
+  console.log('Hello World')
+}
+```
+
+```py
+greeting = "Hello World"
+name = "Jesus"
+planet = "X"
+intro = (
+  f"{greeting}. "
+  f"I am {name}. "
+  f"I come from {planet}. "
+)
+print(intro)
+"Hello World. I am Jesus. I come from X."
+```
